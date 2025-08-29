@@ -6,7 +6,7 @@ from math import isnan
 import os
 
 # --- الرابط الخلفي ---
-BACKEND_URL = "https://workspace.chinviyou.repl.co"
+BACKEND_URL = os.getenv("BACKEND_URL", "https://workspace.chinviyou.repl.co")
 # ---------------------
 
 # --- الدوال المساعدة ---
